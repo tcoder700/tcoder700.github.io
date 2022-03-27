@@ -2,7 +2,7 @@ let urlGet=window.location.href;
 let convertedUrl = urlGet.toLowerCase();
 
 
-if(convertedUrl.includes("google")){
+if(convertedUrl.includes("iframe")){
     var init = function(){
         const injectFrame = document.createElement('iframe');
         const injectButton = document.createElement('button');
